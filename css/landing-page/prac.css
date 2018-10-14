@@ -1,18 +1,9 @@
 * {box-sizing:border-box}
-#top .img-one {
-  /* background: url(images/bg.jpg) no-repeat center center fixed;
-   -webkit-background-size: cover;
-   -moz-background-size: cover;
-   -o-background-size: cover;
-   background-size: cover; */
 
-}
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1400px;
-  /* max-height: 100%; */
-  position: relative;
-  margin: auto;
+  height:500px;
+  background: black;
 }
 
 /* Hide the images by default */
@@ -21,18 +12,32 @@
 }
 
 /* Next & previous buttons */
-.prev, .next {
+.arrow-box{
+  height:50px;
+  width: 50px;
+  background: red;
+}
+.prev{
   cursor: pointer;
   position: absolute;
-  top: 50%;
+  top: 514px;
   width: auto;
-  margin-top: -22px;
-  padding: 16px;
+  left: 356px;
   color: white;
   font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
+  font-size: 60px;
+}
+ .next {
+   cursor: pointer;
+   position: absolute;
+   top: 515px;
+   width: auto;
+   left: 420px;
+   color: white;
+   font-weight: bold;
+   font-size: 60px;
+
+
 }
 
 /* Position the "next button" to the right */
@@ -42,9 +47,9 @@
 }
 
 /* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
+/* .prev:hover, .next:hover {
   background-color: rgba(0,0,0,0.8);
-}
+} */
 
 /* Caption text */
 .text {

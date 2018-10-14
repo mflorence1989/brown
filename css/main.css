@@ -20,6 +20,25 @@ body{
   height:500px;
   width:100%;
 }
+#top .box{
+  width: 125px;
+      left: 343px;
+      height: 125px;
+      opacity: .8;
+      background: black;
+      position: absolute;
+      top: 478px;
+      transition: 0.6s ease;
+      cursor: pointer;
+}
+#top h1{
+  font-family: 'PT Sans Caption', sans-serif;
+  position: absolute;
+  top: 214px;
+  color: red;
+  left: 315px;
+  font-size: 15rem;;
+}
 
 header{
   display: flex;
@@ -114,27 +133,12 @@ header .menu-btn{
 
 
 @media only screen and (max-width: 960px){
-  .container{
-    width:100%;
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 0 300px;
-  }
-  #top h1{
-    font-size: 6rem;
-  }
-  #promo{
-        max-width: 753px;
-  }
-  #promo .container{
-        max-width: 753px;
-  }
+
+
   footer{
         max-width: 753px;
   }
-  #services{
-        max-width: 753px;
-  }
+
 
 }
 /* Phones */
