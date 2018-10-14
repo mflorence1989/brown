@@ -136,9 +136,10 @@ header .menu-btn{
     font-weight: 600;
     position: absolute;
     top: 670px;
-    left: 198px;
+    left: 256px;
     color: white;
 }
+
 #services .left-side .line {
     width: 29px;
     height: 5px;
@@ -215,12 +216,64 @@ header .menu-btn{
     background: -webkit-linear-gradient(left, rgba(216,190,17,1) 0%,rgba(219,198,43,1) 50%,rgba(41,137,216,1) 50%,rgba(247,247,247,1) 50%);
     background: linear-gradient(to right, rgba(216,190,17,1) 0%,rgba(219,198,43,1) 50%,rgba(41,137,216,1) 50%,rgba(247,247,247,1) 50%);
     position: absolute;
-    top: 2333px;
+    top: 2239px;
     left: 121px;
 }
-
-
+#promo .container .left-side .left {
+  font-size: 16rem;
+    display: inline-block;
+    color: #A80012;
+      z-index: 1;
+      position: absolute;
+      top: 1747px;
+      left: 514px;
+      opacity: .3;
 }
+#promo {
+    padding: 488px 0 200px;
+    background: #D60017;
+}
+#promo h2 {
+  position: absolute;
+  /* margin-top: -247px; */
+  /* margin-left: 314px; */
+  color: white;
+  left: -212px;
+  top: 1996px;
+  font-size: 4rem;
+  font-weight: 400;
+}
+footer .column {
+  text-align: center;
+width: 92.3%;
+height: 100px;
+float: left;
+margin-top: 10px;
+padding: 0px 64px;
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+footer .column-box {
+    position: absolute;
+    left: 450px;
+    margin-top: 39px;
+    margin-bottom: 26px;
+}
+#promo .container .left-side .right {
+    font-size:16rem;
+    color: white;
+    display: inline-block;
+    margin-left: 217px;
+    transform: rotate(179deg);
+    z-index: 1;
+    opacity: .3;
+    margin-top: 34px;
+}
+}
+
+
+
 
 /* Phones */
 @media only screen and (max-width: 767px){
