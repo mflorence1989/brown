@@ -5,6 +5,7 @@
 @import "landing-page/promo.css";
 @import "landing-page/footer.css";
 @import "landing-page/prac.css";
+/* @import "landing-page/top-jumbo.css"; */
 body{
   /* background: #eeeeee; */
 }
@@ -106,6 +107,8 @@ header .menu-btn{
   color: white;
   background: #ff5253;
 }
+
+
 @media only screen and (max-width: 960px){
   .container{
     width:100%;
@@ -128,15 +131,7 @@ header .menu-btn{
   #services{
         max-width: 753px;
   }
-  #top{
-    max-width: 753px;
-  padding: 0 0 100px;
-  background: url(https://images.pexels.com/photos/1449773/pexels-photo-1449773.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  }
+
 }
 /* Phones */
 @media only screen and (max-width: 767px){

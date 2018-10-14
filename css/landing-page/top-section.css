@@ -1,11 +1,12 @@
 #top{
 
 }
-#top .img-one {
-  /* -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover; */
+#top  .slideshow-container  .img-one {
+  background: url(img\pexels-photo-1449773.jpeg) no-repeat center center fixed;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
 
 }
 #top h1{
