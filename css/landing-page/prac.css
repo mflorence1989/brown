@@ -1,14 +1,17 @@
 * {box-sizing:border-box}
-#prac .img-one {
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+#top .img-one {
+  /* background: url(images/bg.jpg) no-repeat center center fixed;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover; */
 
 }
 /* Slideshow container */
 .slideshow-container {
   max-width: 1400px;
+
+  /* max-height: 100%; */
   position: relative;
   margin: auto;
 }
@@ -48,7 +51,7 @@
 .text {
   color: #f2f2f2;
   font-size: 15px;
-  padding: 8px 12px;
+  /* padding: 8px 12px; */
   position: absolute;
   bottom: 8px;
   width: 100%;
