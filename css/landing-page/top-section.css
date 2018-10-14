@@ -1,25 +1,23 @@
-#top{
-
-}
-#top  .slideshow-container  .img-one {
-  background: url(img\pexels-photo-1449773.jpeg) no-repeat center center fixed;
+/* #top{
+  background: black no-repeat center center fixed;
    -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
-   background-size: cover;
+   background-size: cover;;
+   opacity: .6;
+} */
 
-}
 #top h1{
-  color:red;
-  font-size: 12rem;
-  /* margin-left: 163px; */
+  /* color:red;
+  font-size: 12rem; */
+  /* margin-left: 163px;
   margin-top:141px;
   margin-bottom:-11px;
   font-weight: 600;
   text-transform: uppercase;
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'PT Sans', sans-serif; */
   }
-  #top .arrow-box{
+  /* #top .arrow-box{
     width:125px;
     height:100px;
     position: relative;
@@ -57,4 +55,4 @@
         left: 25px;
         color:white;
 
-      }
+      } */

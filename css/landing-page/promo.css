@@ -152,7 +152,7 @@ background: -moz-linear-gradient(left, rgba(216,190,17,1) 0%, rgba(219,198,43,1)
 background: -webkit-linear-gradient(left, rgba(216,190,17,1) 0%,rgba(219,198,43,1) 50%,rgba(41,137,216,1) 50%,rgba(247,247,247,1) 50%); /* Chrome10-25,Safari5.1-6 */
 background: linear-gradient(to right, rgba(216,190,17,1) 0%,rgba(219,198,43,1) 50%,rgba(41,137,216,1) 50%,rgba(247,247,247,1) 50%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   position: absolute;
-  top:  2639px;
+  top:  2117px;
   left: 718px;
 
 }
