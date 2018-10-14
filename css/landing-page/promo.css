@@ -1,0 +1,208 @@
+#promo{
+  padding: 170px 0 200px;
+  background: #D60017;
+}
+#promo .container .left-side .left {
+  font-size: 350px;
+
+  display: inline-block;
+  color:#A80012;
+  z-index: 1;
+  opacity: .3;
+}
+#promo .container .left-side .right{
+  font-size: 350px;
+  color:#A80012;
+  display: inline-block;
+  margin-left: 80px;
+  transform: rotate(179deg);
+  z-index: 1;
+  opacity: .3;
+}
+#promo h2{
+  margin-top: -247px;
+  margin-left: 314px;
+  color:white;
+  font-size: 3rem;
+  font-weight: 400;
+}
+#promo h2 span{
+  display: block;
+}
+#promo .right-side {
+  position: relative;
+}
+#promo .right-side .box{
+  width: 350px;
+  height:360px;
+  /* margin-bottom: 200px; */
+  background: black;
+  float: right;
+  position: absolute;
+  top: -348px;
+  right: 0;
+}
+#promo .right-side .line-break{
+  background: grey;
+  width: 350px;
+  height: 2px;
+  position: absolute;
+  top: 143px;
+
+}
+#promo .right-side .box .box-header{
+  padding:15px;
+  border-bottom: 2px solid grey;
+}
+#promo h3{
+ font-size: 1rem;
+ float: left;
+ color:white;
+}
+#promo .box-header .fab {
+  color:blue;
+  right: 58px;
+  font-size: 1rem;
+  float: right;
+  position: absolute;
+}
+#promo .box-header .twitter-box{
+  width: 81px;
+  left: 249px;
+  height: 16px;
+  background: grey;
+  position: relative;
+}
+#promo .box-header .twitter-box h5{
+  color: white;
+  font-size: .8rem;
+  top: 3px;
+  left: 38px;
+  position: absolute;
+}
+
+#promo .right-side .box .column .left-box{
+  width: 50px;
+  height:50px;
+  background: rgb(216,190,17); /* Old browsers */
+background: -moz-linear-gradient(left, rgba(216,190,17,1) 0%, rgba(219,198,43,1) 50%, rgba(41,137,216,1) 50%, rgba(247,247,247,1) 50%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, rgba(216,190,17,1) 0%,rgba(219,198,43,1) 50%,rgba(41,137,216,1) 50%,rgba(247,247,247,1) 50%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, rgba(216,190,17,1) 0%,rgba(219,198,43,1) 50%,rgba(41,137,216,1) 50%,rgba(247,247,247,1) 50%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  position: absolute;
+  top: 56px;
+left: 20px;
+}
+#promo .right-side .box .column .left-box .right{
+  font-size: 2rem;
+  position: absolute;
+  left: 32px;
+  top: 10px;
+  color: red;
+  transform: rotate(179deg);
+}
+#promo .right-side .box .column .left-box .left{
+  font-size: 2rem;
+  color: white;
+  top: 10px;
+  left: 5px;
+  position: absolute;
+}
+#promo .right-side .box .column h6 {
+  color:white;
+  font-size: .8rem;
+  left: 60px;
+  line-height: 13px;
+  width:350%;
+  position: absolute;
+}
+#promo .right-side .box .column h6 span {
+  /* display:block; */
+}
+#promo .right-side .box  .media fab{
+  top:25px;
+}
+#promo  .media{
+  font-size: 1rem;
+  color:grey;
+  top: 124px;
+left: 79px;
+  position: absolute;
+}
+#promo  p{
+  font-size: .8rem;
+  color:grey;
+  position: absolute;
+  top: 124px;
+  left: 103px;
+}
+#promo  .time p{
+  font-size: .8rem;
+  color:grey;
+  position: absolute;
+  top: 57px;
+  left: 263px;
+}
+
+
+#promo  .left-box{
+  width: 50px;
+  height:50px;
+  background: rgb(216,190,17); /* Old browsers */
+background: -moz-linear-gradient(left, rgba(216,190,17,1) 0%, rgba(219,198,43,1) 50%, rgba(41,137,216,1) 50%, rgba(247,247,247,1) 50%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, rgba(216,190,17,1) 0%,rgba(219,198,43,1) 50%,rgba(41,137,216,1) 50%,rgba(247,247,247,1) 50%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, rgba(216,190,17,1) 0%,rgba(219,198,43,1) 50%,rgba(41,137,216,1) 50%,rgba(247,247,247,1) 50%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  position: absolute;
+  top: 2140px;
+  left: 718px;
+
+}
+#promo  .left-box .right{
+  font-size: 2rem;
+  position: absolute;
+  left: 32px;
+  top: 10px;
+  color: red;
+  transform: rotate(179deg);
+}
+#promo .left-box .left{
+  font-size: 2rem;
+  color: white;
+  top: 10px;
+  left: 5px;
+  position: absolute;
+}
+#promo .left-box  h6{
+  color:blue;
+  color:white;
+  font-size: .8rem;
+  left: 60px;
+  line-height: 13px;
+  width:350%;
+  position: absolute;
+}
+#promo .left-box .time p{
+  font-size: .8rem;
+  color:grey;
+  position: absolute;
+  top: 2px;
+  left: 248px;
+  display: flex;
+}
+#promo .left-box .time p span{
+  position: absolute;
+  left: 10px;
+}
+#promo .left-box  .twitter-img img{
+  width: 343%;
+  height: 122%;
+  position: absolute;
+  top: 95px;
+  left: 57px;
+}
+#promo .twitter-input input{
+  position: absolute;
+  top: 161px;
+  left: 57px;
+  background: black;
+  opacity: .6;
+}

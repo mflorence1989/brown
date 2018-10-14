@@ -1,0 +1,77 @@
+footer{
+  padding: 0 0 300px;
+  background: white;
+}
+footer .logo{
+position: relative;
+}
+footer .logo h2{
+  position: absolute;
+  color: red;
+  top: 70px;
+  left:89px;
+  font-weight: 500;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 6rem;
+}
+footer .logo .fas{
+  font-size: 10rem;
+  position: absolute;
+  top: 108px;
+  left: 211px;
+  color:#D60017;
+  transform: rotate(270deg);
+}
+footer .logo span .fas{
+  position: absolute;
+  top: -19px;
+  left: 211px;
+  transform: rotate(89deg);
+}
+footer  .column-box{
+  position: absolute;
+  left: 450px;
+  margin-top: 82px;
+}
+footer .column{
+  text-align: center;
+  width: 33.3%;
+  height: 100px;
+  float: left;
+  padding: 0 100px;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+
+}
+footer  .column-box .column h2 {
+  color:red;
+  width:100%;
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+footer  .column-box .column p {
+  /* display: inline-block; */
+  /* width: 33.3% */
+  width:125%;
+  font-size: .8rem;
+}
+footer  .column-box .column p span {
+  display: block;
+}
+footer  .column-box .column .info-box{
+  width: 125%;
+  /* background: black; */
+}
+footer  .column-box .column .info-box .button{
+  padding:10px;
+  margin-top: 10px;
+  background: black;
+  color: white;
+}
+footer  .column-box .column .info-box .button a{
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
