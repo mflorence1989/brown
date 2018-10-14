@@ -1,0 +1,240 @@
+#top img{
+  height:500px;
+  width:100%;
+}
+#top .box{
+  width: 125px;
+      left: 343px;
+      height: 125px;
+      opacity: .8;
+      background: black;
+      position: absolute;
+      top: 478px;
+      transition: 0.6s ease;
+      cursor: pointer;
+}
+#top h1{
+  font-family: 'PT Sans Caption', sans-serif;
+  position: absolute;
+  top: 214px;
+  color: red;
+  left: 315px;
+  font-size: 15rem;;
+}
+
+header{
+  position: sticky;
+  display: flex;
+  padding: 20px;
+  width: 100%;
+  background: black;
+  /* opacity: .6; */
+  justify-content: space-between;
+}
+header .logo{
+  cursor: pointer;
+
+  display: flex;
+}
+header .red-line .fas{
+  color:red;
+  font-size: 4rem;
+  padding-left: 10px;
+  padding-right: 80px;
+  transform: rotate(179deg);
+}
+header  .white-line .fas{
+color:white;
+font-size: 4rem;
+}
+
+header .header-menu{
+  font-size: 1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 80px;
+
+}
+header .header-menu a{
+  font-size: 1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+  padding: 0 10px;
+
+
+}
+header .header-menu a:hover{
+  font-weight: 700;
+  color: #ff5253;
+}
+header .menu-btn{
+  font-weight: 700;
+  color: #ff5253;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  font-size: 1.6rem;
+  display: none;
+  cursor: pointer;
+}
+@media only screen and (max-width: 960px){
+  .container{ width: 100%}
+  #top h1 {
+    font-family: 'PT Sans Caption', sans-serif;
+  position: absolute;
+  top: 295px;
+  color: red;
+  left: 191px;
+  font-size: 8rem;
+}
+#top .box {
+    width: 125px;
+    left: 198px;
+    height: 125px;
+    opacity: .8;
+    background: black;
+    position: absolute;
+    top: 478px;
+    transition: 0.6s ease;
+    cursor: pointer;
+}
+.prev {
+    cursor: pointer;
+    position: absolute;
+    top: 514px;
+    width: auto;
+    left: 209px;
+    color: white;
+    font-weight: bold;
+    font-size: 60px;
+}
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 515px;
+    width: auto;
+    left: 263px;
+    color: white;
+    font-weight: bold;
+    font-size: 60px;
+}
+.numbertext {
+    color: #f2f2f2;
+    font-size: 17px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 531px;
+    left: 223px;
+}
+#services .left-side h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    position: absolute;
+    top: 670px;
+    left: 198px;
+    color: white;
+}
+#services .left-side .line {
+    width: 29px;
+    height: 5px;
+    background: #D60017;
+    margin-bottom: 6px;
+    position: absolute;
+    top: 650px;
+    left: 202px;
+}
+#services .left-side p {
+    color: white;
+    margin: 0 auto;
+    line-height: 22px;
+    /* left: 61px; */
+    width: 200%;
+    /* position: absolute; */
+    /* float: left; */
+    /* top: 700px; */
+    /* margin-top: 10px; */
+    margin-left: -97px;
+}
+#services .right-side img {
+    width: 200px;
+    height: 200px;
+    border: 4px solid white;
+    /* float: right; */
+    border-radius: 50%;
+    margin-left: 198px;
+    position: absolute;
+    top: 1061px;
+    /* margin-top: -405px; */
+}
+#services .right-side .signature h4 {
+    font-size: 1rem;
+    font-weight: 600;
+    position: absolute;
+    /* top: 1203px; */
+    left: 530px;
+    color: black;
+    top: 899px;
+    /* margin-right: 125px; */
+    /* margin-top: -43px; */
+    font-family: 'Dancing Script', cursive;
+}
+#services .column .square img {
+    width: 58.3%;
+    top: 110px;
+    right: 89px;
+    position: absolute;
+}
+#services .column p {
+    color: #D60017;
+    font-size: .8rem;
+    font-weight: 400;
+    width: 87%;
+    margin-left: 31px;
+    color: white;
+    line-height: 15px;
+}
+#services .column .button {
+    /* padding: 20px; */
+    width: 100px;
+    height: 40px;
+    background: #D60017;
+    position: relative;
+    left: 70px;
+    top: 20px;
+}
+#promo .left-box {
+    width: 50px;
+    height: 50px;
+    background: rgb(216,190,17);
+    background: -moz-linear-gradient(left, rgba(216,190,17,1) 0%, rgba(219,198,43,1) 50%, rgba(41,137,216,1) 50%, rgba(247,247,247,1) 50%);
+    background: -webkit-linear-gradient(left, rgba(216,190,17,1) 0%,rgba(219,198,43,1) 50%,rgba(41,137,216,1) 50%,rgba(247,247,247,1) 50%);
+    background: linear-gradient(to right, rgba(216,190,17,1) 0%,rgba(219,198,43,1) 50%,rgba(41,137,216,1) 50%,rgba(247,247,247,1) 50%);
+    position: absolute;
+    top: 2333px;
+    left: 121px;
+}
+
+
+}
+
+/* Phones */
+@media only screen and (max-width: 767px){
+  header .header-menu{
+    display: none;
+  }
+  header .menu-btn{
+    display: flex;
+
+  }
+  header .logo{
+    font-size: 1.3rem;
+  }
+  .mobile-menu{
+    display: flex;
+  }
+}
